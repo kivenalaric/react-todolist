@@ -1,0 +1,58 @@
+.list__box {
+  display: flex;
+  flex-direction: column;
+}
+
+.list__inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.list__label {
+  font-size: 20px;
+  font-weight: 810;
+}
+
+.list__tasks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.input__field {
+    width: 250px;
+    max-width: 250px;
+}
+
+.list__box {
+  background-color: #9c572b;
+  max-width: fit-content;
+  margin: auto;
+  padding: 20px;
+}
+
+.list__btn {
+  font-size: 14px;
+  margin: 0;
+  border-radius: 10px;
+  border: none;
+  padding: 3px 5px;
+  text-align: center;
+  align-self: center;
+}
+
+.list__items {
+    text-align: left;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    background-color: #ffb300;
+    padding: 4px 3px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
